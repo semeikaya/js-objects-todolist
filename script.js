@@ -19,7 +19,7 @@ const todoList = {
     ],
 
     printAll: function () {
-        for (i = 0; i < todoList.items.length; i++) {
+        for (let i = 0; i < todoList.items.length; i++) {
             todoList.print(i);
         }
     },
