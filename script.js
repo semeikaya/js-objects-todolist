@@ -45,9 +45,3 @@ const todoList = {
         todoList.items[index].completed = true
     },
 };
-
-
-
-todoList.printAll()
-todoList.complete(3)
-todoList.printAll()
